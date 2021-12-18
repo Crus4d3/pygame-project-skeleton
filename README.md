@@ -1,1 +1,3 @@
-# pygame-project-skeleton
+# Pygame project skeleton
+
+This project is a skeleton for basic pygame projects.
