@@ -24,7 +24,6 @@ class Game():
         self.toDraw = []
 
     def main(self):
-        self.initGame()
         while self.lost == False:
             self.clock.tick(self.FPS)
             self.window.drawFrame(self)
@@ -37,4 +36,5 @@ class Game():
                 if event.type == pygame.QUIT:
                     quit()
                 if pygame.key.get_pressed()[pygame.K_SPACE]:
+                    self.initGame()
                     self.main()
